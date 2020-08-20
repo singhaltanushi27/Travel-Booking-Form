@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tbf.css">
+    <title>Get Registered!</title>
+    <script src="tbf2.js"></script>
+</head>
+<body> 
+    <div class="banner">
+        <h1>Travel Booking Form</h1>
+    </div>	 
+    <form name="RegForm" action="/" onsubmit="return mytbf();" method="post"> 
+        
+        <p>Full Name: <input type="text" size=65 name="Name"> </p><br>	 
+        <p>Address: <input type="text" size=65 name="Address"> </p><br> 
+        <p>E-mail Address: <input type="text" size=65 name="EMail" required> </p><br> 
+        <p>Password: <input type="text" size=65 name="Password" required> </p><br> 
+        <p>Contact Number: <input type="text" size=65 name="Telephone" placeholder="xxx-xxx-xxxx"></p><br> 
+            
+        <p>Select Your Destination
+            <select type="text" value="" name="Subject"> 
+                <option>Mussorie</option> 
+                <option>Dehradun</option> 
+                <option>Leh</option> 
+                <option>Darjeeling</option> 
+                <option>Bengaluru</option> 
+                <option>Mumbai</option> 
+                <option>Pune</option> 
+                <option>Rann of Kuchh</option> 
+                <option>Other</option>
+            </select></p><br><br> 
+        <p>Requiurements: <textarea cols="55" name="Comment"></textarea></p>
+        <div class="question">
+            <p>Include travel insurance</p>
+            <div class="question-answer">
+              <div>
+                <input type="radio" value="none" id="radio_7" name="question4"/>
+                <label for="radio_7" class="radio"><span>Yes</span></label>
+              </div> 
+              <div>
+                <input type="radio" value="none" id="radio_8" name="question4"/>
+                <label for="radio_8" class="radio"><span>No</span></label>
+              </div>
+            </div>
+        </div>
+
+        <p>Leave Your Queries Here: <textarea cols="55" name="Comment"> </textarea></p>
+        <div class="btn-block">
+            <button type="submit" onclick="return submitf();">Book</button>	
+        </div> 
+        
+    </form> 
+</body>
+    
+</html>

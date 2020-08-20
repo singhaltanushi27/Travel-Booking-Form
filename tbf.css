@@ -1,0 +1,58 @@
+html, body {
+    min-height: 100%;
+    
+
+}
+
+.btn-block {
+    margin-top: 10px;
+    text-align: center;
+    }
+button {
+    width: 150px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px; 
+    background :#F58262;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+}
+.banner {
+    position: relative;
+    height: 230px;
+    background-image: url("https://www.pngitem.com/pimgs/m/532-5327356_facebook-cover-travel-india-hd-png-download.png");  
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+input, select, textarea {
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+input {
+    width: calc(25% - 10px);
+    padding: 5px;
+}
+select {
+    width: 100%;
+    padding: 7px 0;
+    background: transparent;
+}
+textarea {
+    width: calc(100% - 12px);
+    padding: 5px;
+}
+
+label.radio {
+    position: relative;
+    display: inline-block;
+    margin: 5px 20px 15px 0;
+    cursor: pointer;
+}
+.question span {
+    margin-left: 30px;
+}
